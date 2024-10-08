@@ -6,8 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(210, 202, 202);
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 350px;
+  background-color: #A66E38;
+  padding: 20px;
 }
